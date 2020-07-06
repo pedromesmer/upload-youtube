@@ -1,0 +1,26 @@
+{
+  "name": "upload-youtube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/pedromesmer/upload-youtube.git",
+  "author": "pedromesmer <pedro_mesmer@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dialog": "^0.3.1",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "googleapis": "^52.1.0",
+    "open": "^7.0.4",
+    "pkg": "^4.4.9",
+    "readline-sync": "^1.4.10"
+  },
+  "bin": "index.js",
+  "pkg": {
+    "assets": [
+      "../video-file/"
+    ],
+    "target": [
+      "node12-win-x64"
+    ]
+  }
+}
