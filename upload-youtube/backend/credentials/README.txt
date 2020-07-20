@@ -1,0 +1,1 @@
+Coloque as credencias da API data do youtube v3 aqui, com o nome: google-youtube.json

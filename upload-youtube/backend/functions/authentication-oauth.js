@@ -5,6 +5,7 @@ const open = require('open');
 
 
 module.exports = async function authenticateWithOAuth() {
+
     const webServer = await startWebServer();
     const OAuthClient = await createOAuthClient();
     requestUserConsent(OAuthClient);
@@ -64,7 +65,7 @@ module.exports = async function authenticateWithOAuth() {
                 const authCode = req.query.code;
                 console.log(`> consent given: ${authCode}`);
 
-                res.send('<h1>Thank you!</h1><p>Now, close this tab.</p>')
+                res.send('<h1>Autenticado!</h1><p>Aguarde o upload.</p>')
                 resolve(authCode);
             })
         })

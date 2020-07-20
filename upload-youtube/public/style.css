@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form {
+    display: flex;
+    width: 300px;
+    flex-direction: column;    
+    border: 1px solid black;
+    padding: 10px;
+}
+form > * {
+    margin-top: 10px;
+    margin-bottom: 10px  ;
+}
