@@ -4,7 +4,7 @@ alterando somente o nome da matéria, data e o vídeo.
 
 O programa faz autenticação oauth na conta do usuário, e tem pega as informações com o usuário de forma amigável, por uma pagina web local.
 
-> Faz upload de arquivos de até 2GB (alterável no arquivo index.js, => form.maxFileSize = tamanho_em_bytes)
+- Faz upload de arquivos de até 2GB (alterável no arquivo index.js, => form.maxFileSize = tamanho_em_bytes)
 
 Para usar, basta:
 
