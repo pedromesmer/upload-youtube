@@ -1,4 +1,4 @@
-# upload-youtube
+# upload-videoaulas-youtube
 A ideia surgiu de uma necessidade pessoal de realizar ulpoads de video-aulas no youtube, sempre com a descrição e título com o mesmo padrão,
 alterando somente o nome da matéria, data e o vídeo.
 
